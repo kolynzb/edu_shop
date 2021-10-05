@@ -1,0 +1,22 @@
+.cardItems {
+  margin: auto;
+}
+.allcategories {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.categori {
+  display: flex;
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+.categori::-webkit-scrollbar {
+  display: none;
+}
+@media screen and (max-width: 800px) {
+  .categori {
+    flex-wrap: wrap;
+  }
+}

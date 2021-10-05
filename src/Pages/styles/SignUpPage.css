@@ -1,0 +1,15 @@
+.signuppage {
+  background: black;
+  height: 100vh;
+}
+.signupcontents {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.signupcontainer {
+  background: white;
+  width: 300px;
+}

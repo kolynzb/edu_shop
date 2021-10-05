@@ -1,0 +1,77 @@
+.logoSignIn {
+}
+.SignInScreen {
+  background: #121212;
+
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+}
+.signInForm {
+  background: white;
+  width: 350px;
+  margin: auto;
+  height: 60vh;
+  border-radius: 10px;
+  padding: 20px;
+}
+.signinHeader {
+  margin: auto;
+  margin-bottom: 0;
+}
+.bottomTEXT {
+  color: white;
+  margin: auto;
+  margin-top: 0;
+  width: 400px;
+  text-align: center;
+  font-size: 0.85rem;
+}
+.signBtmParaLink {
+  text-decoration: underline;
+  font-weight: bold;
+}
+.signinTitle {
+  font-size: 1.3rem;
+  padding-bottom: 30px;
+}
+.signBtmPara {
+  font-size: 0.95rem;
+  padding-bottom: 20px;
+  margin-left: 5px;
+  font-weight: 400;
+}
+.passwordInputSignIn > input,
+.emailInputSignIn > input {
+  margin-bottom: 20px;
+  border: none;
+
+  width: 95%;
+  font-size: 1.1rem;
+  outline: none;
+}
+.passwordInputSignIn,
+.emailInputSignIn {
+  margin-top: 30px;
+}
+.signInBtn {
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 1rem;
+  width: 95%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 600;
+}
+.signInBtn:hover {
+  background: #179edd;
+}
+.inputt {
+  border-bottom: 1px solid black;
+}

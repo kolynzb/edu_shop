@@ -1,0 +1,14 @@
+.totopbtn {
+  position: fixed;
+  z-index: 999;
+  bottom: 20px;
+  right: 30px;
+  background-color: black;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+.totopbtn > svg {
+  font-size: 20px;
+  color: white;
+}
