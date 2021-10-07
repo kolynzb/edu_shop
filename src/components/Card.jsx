@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./styles/Card.css";
 
 function Card(props) {
@@ -27,7 +28,9 @@ function Card(props) {
       ))}
 
       <div className="overlay">
-        <h1>BUY</h1>
+        <button>BUY</button>
+        <Link to={`/products-details/${props.stock.id}`}>View Details</Link>
+        <button>Add to Cart</button>
       </div>
     </div>
   );

@@ -1,0 +1,22 @@
+.productPic {
+  width: 400px;
+}
+.productTitle {
+  font-size: 30px;
+  font-weight: bold;
+}
+.product-details {
+  position: absolute;
+  top: 200px;
+  margin: auto;
+}
+.product-price {
+  font-size: 25px;
+}
+.addCrt {
+  padding: 6px 15px;
+  border-radius: 10px;
+}
+.proContainer {
+  display: flex;
+}

@@ -16,6 +16,7 @@ function CardItems() {
               key={stock.id}
               name={stock.product}
               stars={stock.star}
+              stock={stock}
             />
           ))}
       </div>
@@ -24,13 +25,15 @@ function CardItems() {
         {data
           .filter((stock) => stock.category === "Electronics")
           .map((stock) => (
-            <Card
-              image={stock.image}
-              price={stock.price}
-              key={stock.id}
-              name={stock.product}
-              stars={stock.star}
-            />
+            <div key={stock.id}>
+              <Card
+                image={stock.image}
+                price={stock.price}
+                name={stock.product}
+                stars={stock.star}
+                stock={stock}
+              />
+            </div>
           ))}
       </div>
     </div>
